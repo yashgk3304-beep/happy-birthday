@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A personalized cinematic birthday experience with candles, confetti, and gift messages."
+    />
+    <meta name="theme-color" content="#150d17" />
+    <meta property="og:title" content="A Birthday Wish" />
+    <meta
+      property="og:description"
+      content="Open a dreamy personalized birthday experience."
+    />
+    <meta property="og:type" content="website" />
+    <title>A Birthday Wish</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"
+      defer
+    ></script>
+    <script type="module" src="./scripts/main.js"></script>
+  </head>
+  <body>
+    <noscript>
+      <main class="noscript">
+        <h1>JavaScript is needed for this birthday experience.</h1>
+        <p>Please enable JavaScript to view the animated pages.</p>
+      </main>
+    </noscript>
+
+    <canvas id="ambient-canvas" aria-hidden="true"></canvas>
+    <canvas id="celebration-canvas" aria-hidden="true"></canvas>
+    <div id="app" class="experience" aria-live="polite"></div>
+  </body>
+</html>
