@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Memory placeholder one</title>
+  <desc id="desc">An abstract rose and gold cinematic memory placeholder.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#27101f"/>
+      <stop offset="0.52" stop-color="#8d3f4f"/>
+      <stop offset="1" stop-color="#f5b977"/>
+    </linearGradient>
+    <radialGradient id="light" cx="50%" cy="40%" r="54%">
+      <stop offset="0" stop-color="#fff7da" stop-opacity="0.78"/>
+      <stop offset="0.45" stop-color="#ffc1a0" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#27101f" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="960" height="640" rx="36" fill="url(#bg)"/>
+  <circle cx="510" cy="262" r="260" fill="url(#light)"/>
+  <path d="M115 472 C252 384 331 385 471 476 C574 543 708 525 846 420" fill="none" stroke="#fff1bf" stroke-width="5" stroke-opacity="0.55"/>
+  <path d="M152 510 C303 433 440 432 590 513 C674 559 748 558 838 506" fill="none" stroke="#6ff2d8" stroke-width="3" stroke-opacity="0.34"/>
+  <circle cx="242" cy="164" r="52" fill="#ffd37e" opacity="0.18" filter="url(#soft)"/>
+  <circle cx="732" cy="186" r="74" fill="#ffe3b0" opacity="0.16" filter="url(#soft)"/>
+</svg>

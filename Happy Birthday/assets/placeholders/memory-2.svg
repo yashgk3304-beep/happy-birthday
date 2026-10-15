@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Memory placeholder two</title>
+  <desc id="desc">An abstract cinematic gold and teal memory placeholder.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#130f19"/>
+      <stop offset="0.45" stop-color="#5f2439"/>
+      <stop offset="1" stop-color="#16706a"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#ff9a85" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffe0a3" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#6ff2d8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+  <rect width="960" height="640" rx="36" fill="url(#bg)"/>
+  <path d="M64 331 C232 177 433 486 595 301 C697 184 780 223 896 125" fill="none" stroke="url(#ribbon)" stroke-width="34" stroke-linecap="round" opacity="0.75" filter="url(#glow)"/>
+  <path d="M72 340 C235 188 430 493 594 310 C700 193 778 234 886 139" fill="none" stroke="#fff4cc" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="264" cy="438" r="92" fill="#ffbd80" opacity="0.13"/>
+  <circle cx="738" cy="192" r="118" fill="#7ef7dc" opacity="0.11"/>
+</svg>
