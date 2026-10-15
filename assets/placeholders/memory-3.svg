@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">Memory placeholder three</title>
+  <desc id="desc">An abstract starfield birthday memory placeholder.</desc>
+  <defs>
+    <radialGradient id="bg" cx="48%" cy="42%" r="76%">
+      <stop offset="0" stop-color="#793145"/>
+      <stop offset="0.52" stop-color="#20101d"/>
+      <stop offset="1" stop-color="#0d0b12"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffe7ac" stop-opacity="0.78"/>
+      <stop offset="1" stop-color="#f1788c" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="640" rx="36" fill="url(#bg)"/>
+  <path d="M478 86 L532 266 L720 246 L561 348 L622 527 L478 413 L332 527 L394 348 L236 246 L424 266 Z" fill="url(#beam)" opacity="0.45"/>
+  <g fill="#fff0bf" opacity="0.8">
+    <circle cx="132" cy="126" r="4"/>
+    <circle cx="208" cy="394" r="3"/>
+    <circle cx="344" cy="168" r="5"/>
+    <circle cx="642" cy="114" r="4"/>
+    <circle cx="779" cy="421" r="5"/>
+    <circle cx="850" cy="236" r="3"/>
+  </g>
+</svg>

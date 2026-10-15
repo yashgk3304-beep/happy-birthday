@@ -1,0 +1,47 @@
+{
+  "defaultName": " {{name}} Wonderful",
+  "seo": {
+    "title": "A Birthday Wish for {{name}}",
+    "description": "happy birthday {{name}}!"
+  },
+  "landing": {
+    "title": "Happy Birthday, {{name}} 🎉",
+    "subtitle": "always me and god will be with you",
+    "enterLabel": "Enter",
+    "musicLabel": "Sound"
+  },
+  "candles": {
+    "title": "Blow The Candles",
+    "subtitle": "Blow the candle in.",
+    "introMessage": "Happy Birthday, {{name}}. Blow the candle in.",
+    "firstCountdownLabel": "Blow the candle in",
+    "secondCountdownLabel": "Blow hard again",
+    "listeningLabel": "Blow!",
+    "firstBlowMessage": "You didn't blow hard. Try again in",
+    "missedBlowMessage": "Didn't feel enough. Try again.",
+    "successMessage": "Happy Birthday, {{name}}!",
+    "microphoneMessage": "Please allow microphone access so the candles can hear your blow.",
+    "useMicrophone": true
+  },
+  "giftsPage": {
+    "title": "Gift",
+    "subtitle": "",
+    "closeLabel": "Close",
+    "memoryTitle": "Memory Reel"
+  },
+  "gifts": [
+    {
+      "id": "gift",
+      "title": "Gift",
+      "closedText": "press to open the gift",
+      "message": "Happy Birthday, {{name}}! may god be with you darling......alwayas remember strongest souls are often tested with hard tasks",
+      "image": "",
+      "audio": ""
+    }
+  ],
+  "memories": [],
+  "assets": {
+    "backgroundMusic": "",
+    "successAudio": ""
+  }
+}
